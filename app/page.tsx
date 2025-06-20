@@ -49,23 +49,24 @@ export default function NextKeyLanding() {
   }, []);
 
   const faq = [
-    {
-      q: "What is the NextKey app?",
-      a: "NextKey is a private digital tool built to simplify and humanize the housing access process for renters, landlords, and service providers.",
-    },
-    {
-      q: "Who is it for?",
-      a: "Renters seeking housing, landlords with available units, and community partners working on housing access.",
-    },
-    {
-      q: "When does it launch?",
-      a: "We're preparing for launch—join our interest list to stay updated!",
-    },
-    {
-      q: "Is this free?",
-      a: "Yes, we aim to make NextKey accessible to renters at no cost. Landlord and partner pricing may vary.",
-    },
-  ];
+  {
+    q: "What is the NextKey app?",
+    a: "NextKey is a digital housing access platform being built to help renters, landlords, and housing professionals connect, track, and stay informed throughout the voucher placement process.",
+  },
+  {
+    q: "Is the app available yet?",
+    a: "The platform is currently in development. You can join the interest list at nextkeyapp.com to be notified when it goes live.",
+  },
+  {
+    q: "Who can use the app?",
+    a: "The app will serve renters (especially voucher holders), landlords, real estate agents, nonprofits, and housing specialists.",
+  },
+  {
+    q: "Is this a government service?",
+    a: "No. The app is independently developed by NextKey Technologies LLC and is not affiliated with NYC Housing Connect or HPD.",
+  },
+];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] relative overflow-hidden text-white">
