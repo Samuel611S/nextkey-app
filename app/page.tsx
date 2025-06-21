@@ -242,6 +242,24 @@ export default function NextKeyLanding() {
           </div>
         </div>
       </section>
+       {/* >>> JOIN WAITLIST BUTTON SECTION <<< */}
+      <section className="py-16 relative z-10 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl font-bold mb-6 text-white">
+            Ready to Join the Waitlist?
+          </h2>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScglqJyX-gvyC82INVxKjB0cG7z3iok4uLIgKW8ALSQwxzKPw/viewform?usp=header" target="_blank">
+            <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-lg px-8 py-4 rounded-full shadow-md hover:shadow-purple-500/40 transition-all duration-300">
+              Join the Wait List
+            </Button>
+          </Link>
+        </motion.div>
+      </section>
 
       {/* Interest Form Card (General Roles) */}
       <section className="py-20 relative z-10">
